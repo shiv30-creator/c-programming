@@ -7,4 +7,5 @@ int main()
    scanf("%d",&num);
    printf("User number : %d",num);
 
+   return 0;
 }
