@@ -1,4 +1,5 @@
 #include<stdio.h>
+#define n 5
 int SUM(void);
 
 int main()
@@ -12,7 +13,7 @@ int main()
 int SUM(void)
 {
     int count,sum=0;
-    for(count = 1; count <= 5; count++ )
+    for(count = 1; count <= n; count++ )
     {
         sum += count;
     }
